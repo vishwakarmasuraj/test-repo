@@ -1,5 +1,4 @@
-let arr = [5, 10, 15, 20]
-let result = arr.map((eval) => {
-    return eval * 2
-})
-console.log(result);
+const express = require('express');
+const app = express();
+
+app.listen(3000, () => console.log(`App is running on : ${3000}`));
